@@ -1,7 +1,5 @@
 "use strict";
 
-// DARK MODE, FILTER, DATEHIGHLIGHT,  QUOTE✅, EDIT TASKS✅, SORT BY✅, SHOW DESC✅,  PROGESS BAR✅, DELETE TASKS✅, LOCAL STORAGE✅
-
 class Task {
   constructor(title, desc, priority, category, duedate, completed) {
     this.title = title;
