@@ -153,37 +153,12 @@ body {
   justify-self: center;
 }
 
-/* .sort-heading-2 {
-  background-color: #ffadb9;
-  width: 150px;
-  padding: 5px;
-  border-radius: 8px;
-}
-
-.sort-heading-2:hover {
-  background-color: #ffadb9b0;
-  transition: 0.2s ease;
-} */
-
 .option-3 {
   text-align: center;
   grid-column: 4;
   grid-row: 1;
   justify-self: center;
 }
-/* 
-.sort-heading-3 {
-  background-color: #58d0e8;
-  width: 150px;
-  padding: 5px;
-  border-radius: 8px;
-}
-
-.sort-heading-3:hover {
-  background-color: #58d0e888;
-  transition: 0.2s ease;
-} */
-
 .sort-option {
   display: grid;
   grid-template-columns: auto auto;
