@@ -27,7 +27,7 @@ function loadTasksFromLocalStorage() {
 const taskDisplay = document.querySelector(".task-display");
 
 function renderTasks(taskList) {
-  taskDisplay.innerHTML = ""; // Clear existing tasks
+  taskDisplay.innerHTML = ""; 
   taskList.forEach((task, index) => {
     const taskEmoji =
       task.category === "Work"
@@ -270,7 +270,7 @@ taskDisplay.addEventListener("click", function (event) {
     editPopup.classList.remove("hidden");
     overlay.classList.remove("hidden");
 
-    // Populate the edit fields with current values
+    // Put current values in edit fields
     document.querySelector(".title-edit").value = taskList[taskIndex].title;
     document.querySelector(".desc-edit").value = taskList[taskIndex].desc;
         document.querySelector(".category-edit").value = taskList[taskIndex].category;
@@ -502,8 +502,7 @@ duedateSortMenu.addEventListener("click", function (event) {
 const filterMenu = document.querySelector(".filter-menu");
 filterMenu.addEventListener('click', function(event){
   let filteredTasks = [];
-  console.log(event.target);
-
+  
   //COMPLETED TASKS
   if (event.target.closest(".option-1")){
     filteredTasks = [...taskList];
@@ -534,7 +533,6 @@ filterMenu.addEventListener('click', function(event){
     filteredTasks = [...taskList];
     filteredTasks = taskList.filter(function (task) {
       const taskDate = new Date(task.duedate);
-      console.log(taskDate - currentDate);
       return (taskDate - currentDate) < 0 && task.completed === false;
     });
     if (filteredTasks==[]) {
