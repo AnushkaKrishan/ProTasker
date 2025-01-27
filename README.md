@@ -65,10 +65,6 @@ Protasker is a feature-rich task management application designed to help you org
 ## Installation
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/protasker.git
-   ```
-
 2. **Open the index.html file** in your browser.
 
 ---
