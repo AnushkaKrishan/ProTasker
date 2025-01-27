@@ -82,6 +82,14 @@ Protasker is a feature-rich task management application designed to help you org
 
 ---
 
+## Challenges
+
+1. **Making the edit functionality work** - The edit functionality was a tricky one as I was first putting it inside the createTasks() function and that was adding multiple event listeners which made the website work in weird and unexpected ways
+
+2. **Sorting the tasks** - Sorting the tasks without mutating the original array was a problem for me as I had to make sure the taskList array's indexes did not change as that would affect all other functionalities. I solved this by creating a new array and making the renderTasks() and saveToLocalStorage() functions take arrays as parameters instead of using the global variable taskList inside them.
+
+---
+
 ## License
 
 Made By Anushka Krishan-IIT Indore 2025
