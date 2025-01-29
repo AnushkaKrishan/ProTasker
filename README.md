@@ -1,6 +1,10 @@
 # Protasker - Task Manager Application
 
 Protasker is a feature-rich task management application designed to help you organize and track your tasks efficiently. With an intuitive interface, it allows you to create, edit, filter, and sort your tasks based on various criteria. 
+![image](https://github.com/user-attachments/assets/6e68c68e-8bf5-4ac8-b94e-affb9aab094b)
+![image](https://github.com/user-attachments/assets/1d7222e5-f55f-48aa-afb6-031520f01485)
+
+
 
 ## Features
 
